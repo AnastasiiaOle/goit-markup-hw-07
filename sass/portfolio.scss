@@ -1,0 +1,21 @@
+//utils
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//base
+@import "./base/container";
+@import "./base/common";
+
+//components
+@import "./components/descriptions";
+@import "./components/logo";
+@import "./components/social-links";
+
+
+// layout 
+@import "./layout/header";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-gallery";
+@import "./layout/footer";
+@import "./layout/address";
+@import "./layout/contacts";

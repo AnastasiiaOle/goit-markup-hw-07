@@ -1,0 +1,49 @@
+.icon-antenna::before {
+    background-image: url(../images/advantages/antenna.png);
+}
+
+.icon-clock::before {
+    background-image: url(../images/advantages/clock.png);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/advantages/diagram.png);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/advantages/astronaut.png);
+}
+
+.work-description {
+    margin-bottom: 94px;
+}
+
+.work-description-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-decription-item {
+    position: relative;
+}
+
+.section-description {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+}
+
+.work-description-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+}
+
