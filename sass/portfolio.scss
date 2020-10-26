@@ -3,19 +3,18 @@
 @import "./utils/visually-hidden";
 
 //base
+@import "./bases/common";
 @import "./base/container";
-@import "./base/common";
 
 //components
 @import "./components/descriptions";
 @import "./components/logo";
 @import "./components/social-links";
 
-
 // layout 
 @import "./layout/header";
+@import "./layout/contacts";
+@import "./layout/address";
 @import "./layout/portfolio-filter";
 @import "./layout/portfolio-gallery";
 @import "./layout/footer";
-@import "./layout/address";
-@import "./layout/contacts";

@@ -16,34 +16,32 @@
 
 .work-description {
     margin-bottom: 94px;
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-item {
+        position: relative;
+    }
+
+    &-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 70px;
+        width: 100%;
+        background: rgba(47, 48, 58, 0.8);
+    }
 }
 
-.work-description-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.work-decription-item {
-    position: relative;
-}
-
-.section-description {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.166;
+.text-description {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $title-text-color;
+    
+    color: $white-text-color;
 }
-
-.work-description-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    background: rgba(47, 48, 58, 0.8);
-}
-
