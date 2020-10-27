@@ -1,25 +1,22 @@
-//utils
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 
-//base
-@import "./base/common";
-@import "./base/container";
+@import "./bases/common";
+@import "./bases/container";
 
-//components
-@import "./components/logo";
-@import "./components/_modal-button";
-@import "./components/social-links";
-@import "./components/modal";
-@import "./components/descriptions";
-
-// layout 
 @import "./layout/header";
 @import "./layout/contacts";
-@import "./layout/order-servise";
+@import "./layout/order-service";
 @import "./layout/advantages";
 @import "./layout/work-description";
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/address";
 @import "./layout/footer";
+
+@import "./components/logo";
+@import "./components/descriptions";
+@import "./components/modal-button";
+@import "./components/modal";
+@import "./components/social-links";
+
