@@ -12,3 +12,18 @@
 .link {
     text-decoration: none;
 }
+
+.current::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+
+    bottom: -4px;
+
+    position: absolute;
+
+    background-color: $accent-color;
+
+    border-radius: 2px;
+}
